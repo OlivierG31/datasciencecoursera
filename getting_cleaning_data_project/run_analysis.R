@@ -72,7 +72,7 @@ run_analysis <- function ()
 	#  convert the result in data.frame
 	mean_extracted_feature_df <- as.data.frame(mean_extracted_feature)
 	#  recalculate the activity name which has been lost during the mean operation
-	activity_names <- activity_labels[r$activity, 2]
+	activity_names <- activity_labels[mean_extracted_feature_df$activity, 2]
 	#  Replace the activity name column into the table
 	mean_extracted_feature_df$activityNames <- activity_names
 	mean_extracted_feature_df
