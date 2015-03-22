@@ -24,7 +24,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ### The dataset includes the following files:
 
-- 'CodeBook.md'
+- 'CodeBook.md': This file
 
 - 'README.md': Shows information about the scripts and how to get the data set
 
